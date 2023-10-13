@@ -15,7 +15,7 @@ TG频道群：https://t.me/ios_apple_jb
 
 [rewrite_local]
 
-^http[s]?:\/\/pc7dong.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/7d.js
+^http[s]?:\/\/pc7dong.com url script-response-body https://raw.githubusercontent.com/8351674/ios_jb/main/Quantumult-X/Main/7%E5%8A%A8%2B%E8%A7%A3%E9%94%81%E8%A7%86%E9%A2%91%2B%E6%96%87%E7%AB%A0.js
 
 [mitm] 
 
