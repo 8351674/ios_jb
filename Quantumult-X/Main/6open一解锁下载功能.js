@@ -14,7 +14,7 @@ TG频道群：https://t.me/ios_apple_jb
 
 [rewrite_local]
 
-^https:\/\/api\.6pen\.art url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/6open.js
+^https:\/\/api\.6pen\.art url script-response-body https://raw.githubusercontent.com/8351674/ios_jb/main/Quantumult-X/Main/6open%E4%B8%80%E8%A7%A3%E9%94%81%E4%B8%8B%E8%BD%BD%E5%8A%9F%E8%83%BD.js
 
 [mitm] 
 
