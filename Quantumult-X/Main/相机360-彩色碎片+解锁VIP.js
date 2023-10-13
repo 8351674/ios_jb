@@ -16,8 +16,7 @@ TG频道群：https://t.me/ios_apple_jb
 
 [rewrite_local]
 
-^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt url script-response-body https://raw.githubusercontent.com/8351674/ios_jb/main/Quantumult-X/Main/%E7%9B%B8%E6%9C%BA360-%E5%BD%A9%E8%89%B2%E7%A2%8E%E7%89%87%2B%E8%A7%A3%E9%94%81VIP
-[mitm] 
+^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt url script-response-body https://raw.githubusercontent.com/8351674/ios_jb/main/Quantumult-X/Main/%E7%9B%B8%E6%9C%BA360-%E5%BD%A9%E8%89%B2%E7%A2%8E%E7%89%87%2B%E8%A7%A3%E9%94%81VIP.js
 
 hostname = bmall.camera360.com
 
