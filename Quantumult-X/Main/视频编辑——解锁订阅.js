@@ -14,7 +14,7 @@ TG频道群：https://t.me/ios_apple_jb
 
 [rewrite_local]
 
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/spbj.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/8351674/ios_jb/main/Quantumult-X/Main/%E8%A7%86%E9%A2%91%E7%BC%96%E8%BE%91%E2%80%94%E2%80%94%E8%A7%A3%E9%94%81%E8%AE%A2%E9%98%85.js
 
 [mitm]
 
