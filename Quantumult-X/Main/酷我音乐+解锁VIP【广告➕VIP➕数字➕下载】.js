@@ -15,7 +15,7 @@ TG频道群：https://t.me/ios_apple_jb
 
 [rewrite_local]
 
-^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/kwyy.js
+^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/8351674/ios_jb/main/Quantumult-X/Main/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%2B%E8%A7%A3%E9%94%81VIP%E3%80%90%E5%B9%BF%E5%91%8A%E2%9E%95VIP%E2%9E%95%E6%95%B0%E5%AD%97%E2%9E%95%E4%B8%8B%E8%BD%BD%E3%80%91.js
 
 [mitm] 
 
