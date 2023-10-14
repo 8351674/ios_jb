@@ -1,0 +1,38 @@
+/******************************
+
+脚本名称: Al设计师——解锁VIP
+下载地址：https://is.gd/pIIY1O
+软件版本：1.0.1
+脚本作者：✎执笔画浮尘﹏
+更新时间：2023-10-5
+QQ交流群：2278301
+TG交流群：https://t.me/ios_jb
+TG频道群：https://t.me/ios_apple_jb
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
+*******************************
+
+[rewrite_local]
+
+^http[s]?:\/\/painting-api.aimusician.cc\/user\/info\/getMyMaterial url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aimusician.js
+
+[mitm] 
+
+hostname = painting-api.aimusician.cc
+
+
+*******************************/
+
+
+
+var ojbk = JSON.parse($response.body);
+
+
+  ojbk.data.nickname = "彭于晏解锁";
+  ojbk.data.userVipInfo = {
+      "level": 1,
+      "title": "匠心大师",
+      "expireTime": 8888888888000
+    };
+
+$done({body : JSON.stringify(ojbk)});
