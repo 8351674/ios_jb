@@ -1,0 +1,34 @@
+/*************************************
+
+脚本名称: 爱证件——解锁VIP
+下载地址：https://is.gd/71Y6G6
+软件版本：1.2.9
+脚本作者：✎执笔画浮尘﹏
+更新时间：2023-9-1
+QQ交流群：2278301
+TG交流群：https://t.me/ios_jb
+TG频道群：https://t.me/ios_apple_jb
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
+
+**************************************
+
+[rewrite_local]
+
+^https:\/\/zhengjian\.flyingeffect\.com\/api\/user\/userInfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aizhengjian.js
+
+[mitm]
+
+hostname = zhengjian.flyingeffect.com
+
+*************************************/
+
+
+var body = JSON.parse($response.body);
+
+body.data.vip_end_time = "2099-12-31 23:01:42";
+body.data.level = 1;
+body.data.is_vip = 1;
+body.data.is_permanent_vip = 1;
+
+$done({ body: JSON.stringify(body) });
