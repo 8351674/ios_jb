@@ -1,0 +1,26 @@
+/*******************************
+
+脚本名称: 小鹦看看+解锁播放权限
+下载地址：https://is.gd/nd9ygd
+软件版本：2.24
+脚本作者：✎执笔画浮尘﹏
+更新时间：2023-9-17
+QQ交流群：2278301
+TG交流群：https://t.me/ios_jb
+TG频道群：https://t.me/ios_apple_jb
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
+*******************************
+
+[rewrite_local]
+
+^http[s]?:\/\/api.pollykann.com\/media url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/pollykann.js
+
+[mitm] 
+
+hostname = api.pollykann.com
+
+*******************************/
+
+var body = $response.body.replace(/"isPurchased":false/g,'"isPurchased":true')
+$done({ body });
