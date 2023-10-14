@@ -1,0 +1,28 @@
+/*******************************
+
+脚本名称: 哆咪星球—无限刷礼物
+下载地址：https://is.gd/GuYfjR
+脚本作者：✎执笔画浮尘﹏
+更新时间：2023年8月13日
+QQ交流群：2278301
+TG交流群：https://t.me/ios_jb
+TG频道群：https://t.me/ios_apple_jb
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
+
+*******************************
+[rewrite_local]
+
+^http[s]?:\/\/voicechat.enlargemagic.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/enlargemagic.js
+
+[mitm] 
+
+hostname = voicechat.enlargemagic.com
+
+*******************************/
+
+var body = $response.body.replace(/coin":\d+/g,'coin":999999')
+.replace(/score":\d+/g,'score":999999')
+.replace(/deci_score":\d+/g,'deci_score":999999')
+.replace(/code":\d/g,'code":0')
+$done({ body });
